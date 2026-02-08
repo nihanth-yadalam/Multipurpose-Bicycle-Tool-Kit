@@ -75,10 +75,8 @@ The system computes speed and distance using consecutive GPS points and time del
 - Lap segments and trip logging
 
 ## Repository Layout
-- [for git/main.c](for%20git/main.c): Primary firmware (STM32F4) with crash detection, GPS parsing, LCD/keypad, and alerts.
-- [Bicycle/main_function_total _code_C.txt](Bicycle/main_function_total%20_code_C.txt): Consolidated reference version of the main firmware.
-- [Bicycle/MPU_6050_Code_c.txt](Bicycle/MPU_6050_Code_c.txt): Standalone MPU6050 test and crash logic reference.
-- [Bicycle/Script_R1_ES_Bicycle.txt](Bicycle/Script_R1_ES_Bicycle.txt): Presentation/script notes describing the algorithm and GPS features.
+- [main.c](main.c): Primary firmware (STM32F4) with crash detection, GPS parsing, LCD/keypad, and alerts.
+- [Bicycle_doc.docx](Bicycle_doc.docx): Detailed documentation of the project.
 
 ## Anti-Theft Workflow
 1. **Arm**: power on and press `AAA` on the keypad (LCD shows a welcome message).
